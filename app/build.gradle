@@ -1,0 +1,36 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 33
+    namespace "the.ghost"
+	
+	
+    defaultConfig {
+        applicationId "the.ghost"
+        minSdk 14
+        targetSdk 28
+        versionCode 1
+        versionName "1.0"
+		resConfigs "bg", "xxhdpi"
+		ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a"
+		}
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+			shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+}

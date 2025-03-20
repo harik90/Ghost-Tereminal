@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wallLaey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/wallLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Selected wallpaper"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/homeLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/t_black"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollViewAd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/adTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="monospace"
+                android:gravity="start|center"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/red"
+                android:textSize="14sp"
+                android:visibility="gone" />
+        </ScrollView>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginHorizontal="5dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:visibility="gone" />
+
+        <ScrollView
+            android:id="@+id/scrollViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/statusView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start|top"
+                android:paddingHorizontal="10dp"
+                android:selectable="true"
+                android:text=""
+                android:textColor="#00FF00"
+                android:textSize="14sp" />
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/terminalView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="start|bottom"
+                android:imeOptions="actionSend"
+                android:paddingHorizontal="10dp"
+                android:selectable="true"
+                android:text=""
+                android:textColor="#00FF00"
+                android:textSize="14sp" />
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/inoutContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/appSuggestionContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" />
+            </HorizontalScrollView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/_sha" >
+
+                <EditText
+                    android:id="@+id/hiddenInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="monospace"
+                    android:hint="@string/msg_prompt"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="12dp"
+                    android:textColor="@color/dim_light"
+                    android:textColorHint="@color/gray"
+                    android:textCursorDrawable="@drawable/_sha_cursor"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/return_undo"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginVertical="5dp"
+                    android:layout_toLeftOf="@+id/add"
+                    android:background="@drawable/_rip"
+                    android:clickable="true"
+                    android:padding="5dp"
+                    android:src="@drawable/return_undo"
+                    android:tint="@color/dim_light" />
+
+                <ImageView
+                    android:id="@+id/add"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="5dp"
+                    android:background="@drawable/_rip"
+                    android:clickable="true"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_send"
+                    android:tint="@color/dim_light" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

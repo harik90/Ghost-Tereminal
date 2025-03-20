@@ -1,0 +1,138 @@
+<resources>
+
+    <string name="app_name">GHØST UI</string>
+    <string name="chooseHome_txt">Choose defoult Ghøst Launcher</string>
+    <string name="back">Back</string>
+    <string name="ad_str">https://pastebin.com/raw/nT8JHhw6</string>
+    <string name="discription_txt">Hello Friends....</string>
+    <string name="locApil">https://geo.ipify.org/api/v2/country?apiKey=at_feKcUre61rWZpfDjCx4FACKp249RO&amp;ipAddress=8.8.8.8</string>
+    <string name="locApi">https://ipinfo.io/%s/json</string>
+    <string name="ipUrl">https://api.ipify.org</string>
+    <string name="fetching_ip_details">Please wait, fetching IP details...</string>
+    <string name="error_parsing_ip_info">Error parsing IP information.</string>
+    <string name="failed_to_fetch_ip_info">Failed to fetch IP information.</string>
+    <string name="ip_address">IP Address</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="region">Region</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="timezone">Timezone</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="currency">Currency</string>
+    <string name="languages">Languages</string>
+
+    <!-- Command descriptions -->
+    <string name="cmd_help">Available commands :</string>
+    <string name="cmd_clear">Ghøst cleared..</string>
+    <string name="cmd_flash_on">Flash ON</string>
+    <string name="cmd_flash_off">Flash OFF</string>
+    <string name="cmd_list_files">Listing all files:</string>
+    <string name="cmd_change_dir">Changed directory to : </string>
+    <string name="cmd_back_to_root">Returning to root directoryn :</string>
+    <string name="cmd_show_date">Current date and time : </string>
+    <string name="cmd_device_info">Device Information : </string>
+    <string name="cmd_battery_status">Battery status : </string>
+    <string name="cmd_reboot">System reboot initiated...</string>
+    <string name="cmd_shutdown">System shutting down...</string>
+    <string name="cmd_ping">Pinging server...</string>
+    <string name="cmd_tracert">Tracing route to destination...</string>
+    <string name="cmd_get_ip">Fetching IP address...</string>
+    <string name="cmd_get_version">Getting software version...</string>
+    <string name="cmd_run_script">Running script : </string>
+    <string name="cmd_open_file">Opening file : </string>
+    <string name="cmd_save_file">Saving file : </string>
+    <string name="cmd_delete_file">Deleting file : </string>
+    <string name="cmd_choose_exit">Choose onther app to exit from this app..</string>
+
+    <!-- Error messages -->
+    <string name="err_camera">Camera access error.</string>
+    <string name="err_no_cmd">No command provided.</string>
+    <string name="err_no_files">No files found in this directory.</string>
+    <string name="err_invalid_cmd">Invalid command. Please try again.</string>
+    <string name="err_access_denied">Access denied.</string>
+    <string name="err_directory_not_found">Directory not found.</string>
+    <string name="err_no_flash">Flashlight not available.</string>
+    <string name="err_battery_low">Battery too low to execute command.</string>
+    <string name="err_unknown_error">An unknown error occurred.</string>
+    <string name="err_file_not_found">File not found:</string>
+    <string name="err_file_open_failed">Failed to open file :</string>
+    <string name="err_file_save_failed">Failed to save file:</string>
+    <string name="err_script_execution_failed">Script execution failed.</string>
+    <string name="err_command_timeout">Command timed out.</string>
+    <string name="err_no_network">Network not available.</string>
+
+    <!-- General messages -->
+    <string name="msg_wellcome">Wellcome to GHØST Terminal!</string>
+    <string name="msg_dir_change">Changed directory to :</string>
+    <string name="msg_in_root">You are already in the root directory:</string>
+    <string name="msg_flash_on">Turning on the flashlight...</string>
+    <string name="msg_flash_off">Turning off the flashlight...</string>
+    <string name="msg_exit">Exiting terminal. Goodbye!</string>
+    <string name="msg_prompt">Enter a command...</string>
+    <string name="msg_processing">Processing command...</string>
+    <string name="msg_battery_status">Your battery is at:</string>
+    <string name="msg_file_opened">File opened successfully:</string>
+    <string name="msg_file_saved">File saved successfully:</string>
+    <string name="msg_file_deleted">File deleted successfully:</string>
+    <string name="msg_script_running">Script is running...</string>
+    <string name="msg_rebooting">Rebooting system...</string>
+    <string name="msg_shutting_down">Shutting down system...</string>
+    <string name="msg_current_ip">Your current IP address is:</string>
+    <string name="msg_version_info">Current software version is:</string>
+    <string name="msg_ping_success">Ping successful. Response time:</string>
+    <string name="msg_tracert_success">Trace route completed.</string>
+    <string name="msg_no_results">No results found.</string>
+    <string name="txt_Curs"> $</string>
+    <string name="default_value">0</string>
+    <string name="visibility_message">Visible</string>
+    <string name="empty_string"></string>
+    <string name="ad_strSave">ad_str</string>
+    <string name="isUser">isActivate</string>
+    <string name="no_user">disabled</string>
+    <string name="yes_user">enabled</string>
+    <string name="is_dis">isActivate</string>
+    <string name="dis_type_delimiter_start">$[</string>
+    <string name="dis_type_delimiter_end">]$</string>
+	
+    <string name="is_disMsg">dsSmg</string>
+    <string name="disSmg_type_delimiter_start">&lt;[</string>
+    <string name="disSmg_type_delimiter_end">]&gt;</string>
+
+	
+    <string name="is_update">isUpdate</string>
+    <string name="ad_type_delimiter_start">~[</string>
+    <string name="ad_type_delimiter_end">]~</string>
+	
+    <string name="update_type_delimiter_start">U[</string>
+    <string name="update_type_delimiter_end">]U</string>
+    <string name="storage_label">Storage:  </string>
+    <string name="wifi_label">\nWiFi:  </string>
+    <string name="bluetooth_label">\nBluetooth:  </string>
+    <string name="internet_label">\nInternet:  </string>
+    <string name="ram_label">\nRAM:  </string>
+    <string name="cpu_label">\nCPU:  </string>
+    <string name="battery_label">\nBattery:  </string>
+    <string name="rooted_label">\nYour Device :</string>
+    <string name="unlock_count_label">\nUnlock Count:  </string>
+    <string name="unlock_count_today"> Today</string>
+    <string name="fdt_label">\n</string>
+    <string name="wifi_enabled">true</string>
+    <string name="wifi_disabled">false</string>
+    <string name="bluetooth_enabled">true</string>
+    <string name="bluetooth_disabled">false</string>
+    <string name="no_connection">No Connection</string>
+    <string name="not_connected">false</string>
+    <string name="cores">cores</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="charging">Charging</string>
+    <string name="not_charging">Not Charging</string>
+    <string name="not_available">Not Available</string>
+    <string name="true_value">true</string>
+    <string name="false_value">false</string>
+
+    <string name="telegram_url">https://t.me/ghost01977</string>
+    <string name="open_telegram">Open Telegram</string>
+    <string name="telegram_not_installed">Telegram is not installed</string>
+    <string name="destroyed_message">Destroyed...</string>
+</resources>

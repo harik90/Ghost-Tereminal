@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/black</item>
+        <item name="android:colorSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+    <style name="Sp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/black</item>
+        <item name="android:colorSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <item name="android:windowBackground">@drawable/_sp</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="DiaUp">
+        <item name="android:windowEnterAnimation">@anim/sl_up</item>
+        <item name="android:windowExitAnimation">@anim/sl_down</item>
+    </style>
+
+    <style name="setTxt">
+        <item name="android:fontFamily">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/_sha</item>
+    </style>
+
+    <style name="DarkEdit">
+        <item name="android:background">@drawable/_sha</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+
+    <style name="DarkTxt">
+        <item name="android:fontFamily">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="android:paddingVertical">5dp</item>
+    </style>
+
+    <style name="DarkIma">
+        <item name="android:background">@drawable/_rip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:tint">@color/white</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:fontFamily">@null</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
