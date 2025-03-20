@@ -41,6 +41,7 @@ Welcome to the **Hacking Style Android Terminal** — a powerful, stylish, and l
 - `search WhatsApp Hello` → Search *Hello* inside WhatsApp  
 - `walls` → Set wallpaper
 
+
 ---
 
 ## 🖼️ Screenshots (Interface Preview)
@@ -51,7 +52,17 @@ Welcome to the **Hacking Style Android Terminal** — a powerful, stylish, and l
 
 *Screenshots represent the actual terminal interface.*
 
+
 ---
+
+## 📥 Release Download
+👉 **Download Latest Release APK**:  
+[🔗 Download Now](https://your-download-link.com/terminal.apk)  
+
+*Click the link above to download the latest version of the Hacking Theme Android Terminal APK.*
+
+---
+
 
 ## 📜 License
  - MIT License
