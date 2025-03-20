@@ -57,7 +57,7 @@ Welcome to the **Hacking Style Android Terminal** — a powerful, stylish, and l
 
 ## 📥 Release Download
 👉 **Download Latest Release APK**:  
-[🔗 Download Now](https://your-download-link.com/terminal.apk)  
+[🔗 Download Now](https://github.com/harik90/Ghost-Tereminal/releases/download/hackingui/Ghost.Terminal.apk)  
 
 *Click the link above to download the latest version of the Hacking Theme Android Terminal APK.*
 
